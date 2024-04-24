@@ -25,5 +25,23 @@ int gcd(int a, int b) {return b ? gcd(b, a%b): a;}
 
 int main() {
 
+    int n;
+    int s1, s2, last1, last2, tmp;
+    int i;
+    s1 = 0;
+    s2 = 0;
+    scanf("%d", &n);
+    for(i=0; i<n; i++) {
+        scanf("%d", &tmp);
+        if(tmp%2) {
+            s1 ++;
+            last1 = i+1;
+        } else {
+            s2 ++;
+            last2 = i+1;
+        }
+    }
+    if(s1 == 1) printf("%d", last1);
+    else printf("%d", last2);
     return 0;
 }
