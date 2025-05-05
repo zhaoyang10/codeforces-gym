@@ -24,6 +24,11 @@ int gcd(int a, int b) {return b ? gcd(b, a%b): a;}
 #define LEN 1000010
 
 int main() {
+#ifndef ONLINE_JUDGE
+    freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
+#endif
+    int n, q, i;
 
     return 0;
 }
