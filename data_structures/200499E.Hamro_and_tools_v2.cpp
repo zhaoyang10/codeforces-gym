@@ -52,7 +52,7 @@ int main() {
         if(!box[t[i]]){
             box[t[i]] = box[s[i]];
         } else {
-            join_box(s[i],t[i]);
+            join_box(box[s[i]],box[t[i]]);
         }
         box[s[i]] = 0;
     }
