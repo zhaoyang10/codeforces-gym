@@ -1,29 +1,14 @@
-#include <cstdio>
-#include <string>
-#include <cstring>
-#include <algorithm>
-#include <iostream>
-#include <sstream>
-#include <cmath>
-#include <vector>
-#include <queue>
-#include <set>
-#include <unordered_set>
-#include <map>
-#include <bitset>
-#include <utility>
+#include<bits/stdc++.h>
 using namespace std;
+constexpr int MAX_N=200005;
 
 #define ll long long
 
-ll gcd(ll a, ll b) {return b ? gcd(b, a%b): a;}
-int gcd(int a, int b) {return b ? gcd(b, a%b): a;}
-
-
-
-#define LEN 1000010
-
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
 #ifndef ONLINE_JUDGE
     freopen("in.txt", "r", stdin);
     //freopen("out.txt", "w", stdout);
