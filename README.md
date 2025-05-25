@@ -11,8 +11,9 @@ Personal Problem Searching with LLM
     codeforces list: 25D 445B 1213G 100571B 100571F 200499E
 
 ### Tries 
-    codeforces list: 456D 557E  
-    TBD: 817E 102822C
+    codeforces list: 456D 557E 817E  102822C
+
+### Next data structure (TBD)
 
 ### Link Cut Tree (LCT)  (TBD)
     codeforces list: 813F
