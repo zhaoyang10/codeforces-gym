@@ -13,7 +13,14 @@ Personal Problem Searching with LLM
 ### Tries 
     codeforces list: 456D 557E 817E  102822C
 
-### Next data structure (TBD)
+### 
+
+### Suffix Array (TBD)
+    codeforce list:   
+    TBD: 
+    653F 339D 553B 128B
+    271D 686C 714E 676E 704C 1384C
+    432D 1526E 232D 710F 1175F
 
 ### Link Cut Tree (LCT)  (TBD)
     codeforces list: 813F
